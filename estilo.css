@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    grid-template: "header header header header header" 70px
+                    "aside texto  article article article" 70px
+                    "aside link2 article article article"
+                    "aside player player image image" 70px
+                    "aside article1 article1 image image"
+                     "aside article1 article1 Link Link " 100px
+                     "aside Footer Footer Footer Footer" 100px;
+
+}
+
+.item{
+    margin: 5px;
+    border: solid 1px #BCBCBCFF;
+    text-align: center;
+}
+.a{
+    grid-area: header;
+    background-color:purple;
+}
+.b{
+    grid-area: aside;
+    background-color:yellowgreen;
+}
+.c{
+    grid-area: texto;
+    background-color: lightblue;
+}
+.d{ grid-area: article;
+    background-color: deeppink;
+
+}
+.e{
+    grid-area: player;
+    background-color: lightblue;
+}
+.f{
+    grid-area: image;
+    background-color: orange;
+}
+.g{
+    grid-area: article1;
+    background-color: yellow;
+}
+.h{
+    grid-area: Link;
+    background-color: hotpink;
+}
+.i{
+    grid-area: Footer;
+    background-color: darkslategrey;
+}
+j{
+    grid-area: link2;
+    background-color: lightblue;
+}

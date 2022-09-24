@@ -1,2 +1,2 @@
 # CSS-GRID
-Site feito para mostrar uso do display GRID em CSS
+Página feita para mostrar uso do display GRID em CSS
